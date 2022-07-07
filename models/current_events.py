@@ -5,3 +5,8 @@ event1 = Event(datetime.datetime.strptime("07072022","%d%m%Y").date(), "Mens Men
 event2 = Event(datetime.datetime.strptime("08072022","%d%m%Y").date(), "Women's Mental Health", 20, "codeclan", "Women's mental health seminar")
 
 events = [event1,event2]
+
+
+
+def add_new_event(event):
+    events.append(event)
